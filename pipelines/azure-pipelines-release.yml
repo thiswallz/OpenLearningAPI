@@ -1,0 +1,15 @@
+stages:
+- stage: Deploy
+  jobs:
+  - job: Deploy
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - task: AzureCLI@2
+      inputs:
+        azureSubscription: '$(AZURE_SUBSCRIPTION_SECRET)'
+        scriptType: 'bash'
+        scriptLocation: 'inlineScript'
+        inlineScript: |
+          az aks get-credentials --resource-group openlearning-rg --name openlearning-aks
+          kubectl apply -f k8s/deployment.yaml

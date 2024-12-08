@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: openlearning
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: openlearning
+  template:
+    metadata:
+      labels:
+        app: openlearning
+    spec:
+      containers:
+      - name: openlearning
+        image: thiswallz/OpenLearningAPI:latest
+        ports:
+        - containerPort: 80
