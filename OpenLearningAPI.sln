@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_Auth", "00_Auth", "{09ACBB93-6F73-44E4-BE88-78CB20E398F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenLearning.Auth", "src\OpenLearning.Auth\OpenLearning.Auth.csproj", "{BC179F3B-FE63-455C-9BD1-4E5A404E1201}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_API", "01_API", "{7A91E664-F164-42A1-9F47-C34B14FE7CC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenLearning.API", "src\OpenLearning.API\OpenLearning.API.csproj", "{E5474AC0-F8FC-4060-8FAD-006910399E47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Services", "03_Services", "{7A4D843A-DEC7-42CE-AF9A-AB9F036D3ECF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Repository", "04_Repository", "{880B06F8-61A0-4D7B-9904-E617CA1C0583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_IntegrationTest", "05_IntegrationTest", "{F09CFAAB-6EA8-412B-8854-AFBDDB380500}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_UnitTest", "06_UnitTest", "{94FD5406-8406-4C7A-A45A-E7F3F2FD45A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC179F3B-FE63-455C-9BD1-4E5A404E1201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC179F3B-FE63-455C-9BD1-4E5A404E1201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC179F3B-FE63-455C-9BD1-4E5A404E1201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC179F3B-FE63-455C-9BD1-4E5A404E1201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5474AC0-F8FC-4060-8FAD-006910399E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5474AC0-F8FC-4060-8FAD-006910399E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5474AC0-F8FC-4060-8FAD-006910399E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5474AC0-F8FC-4060-8FAD-006910399E47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC179F3B-FE63-455C-9BD1-4E5A404E1201} = {09ACBB93-6F73-44E4-BE88-78CB20E398F2}
+		{E5474AC0-F8FC-4060-8FAD-006910399E47} = {7A91E664-F164-42A1-9F47-C34B14FE7CC3}
+	EndGlobalSection
+EndGlobal

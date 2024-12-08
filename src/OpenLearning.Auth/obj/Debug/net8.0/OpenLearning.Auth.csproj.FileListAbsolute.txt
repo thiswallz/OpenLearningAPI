@@ -1,0 +1,11 @@
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/bin/Debug/net8.0/OpenLearning.Auth.deps.json
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/bin/Debug/net8.0/OpenLearning.Auth.dll
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/bin/Debug/net8.0/OpenLearning.Auth.pdb
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/obj/Debug/net8.0/OpenLearning.Auth.GeneratedMSBuildEditorConfig.editorconfig
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/obj/Debug/net8.0/OpenLearning.Auth.AssemblyInfoInputs.cache
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/obj/Debug/net8.0/OpenLearning.Auth.AssemblyInfo.cs
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/obj/Debug/net8.0/OpenLearning.Auth.csproj.CoreCompileInputs.cache
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/obj/Debug/net8.0/OpenLearning.Auth.dll
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/obj/Debug/net8.0/refint/OpenLearning.Auth.dll
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/obj/Debug/net8.0/OpenLearning.Auth.pdb
+/Users/qu/RiderProjects/OpenLearningAPI/src/OpenLearning.Auth/obj/Debug/net8.0/ref/OpenLearning.Auth.dll
